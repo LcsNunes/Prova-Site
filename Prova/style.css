@@ -1,0 +1,177 @@
+body {
+    text-align: center;
+    background: rgb(177, 243, 221);
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+
+
+
+.header-bg {
+    background-image: url(/header.png);
+    border-radius: 0px 0px 4px 4px;
+
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+
+
+}
+
+.header-menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background: aliceblue;
+    border-radius: 4px;
+
+}
+
+.header-menu a:hover {
+    background: rgb(4, 0, 255);
+    transition: 0.8s;
+}
+
+
+.subtitulo {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.subtitulo-2 {
+    margin-top: 100px;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.conteudo-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#galeria {
+    margin-top: 60px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-radius: 4px;
+}
+
+.galeria-item {
+    width: 400px;
+    height: 300px;
+
+}
+
+
+.footer {
+    background: aliceblue;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.container {
+    background: aliceblue;
+    margin-top: 10px;
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.contato-item {
+    justify-content: space-between;
+    justify-items: start;
+    gap: 10px;
+}
+
+.form {
+    display: grid;
+    display: inline-block;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.botao {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 130px;
+
+}
+
+.botao:hover {
+    background: rgb(4, 0, 255);
+    transition: 0.8s;
+}
+
+
+@media (max-width: 1000px) {
+
+    .conteudo,
+    .header,
+    #galeria {
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: nowrap;
+
+    }
+
+    @media (max-width: 600px) {
+
+        .conteudo,
+        .header,
+        #galeria,
+        .contato {
+        grid-template-columns: 1fr;
+        
+
+    }
