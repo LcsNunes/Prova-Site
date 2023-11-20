@@ -12,72 +12,72 @@
 
 <body>
     <header class="header-bg">
-        <div class="header">
+        <nav class="header">
             <h1>Pacífico Paradise</h1>
             <ul class="header-menu">
-                <li> <a href="/">Pacotes</a></li>
-                <li> <a href="/">Trilhas</a></li>
-                <li> <a href="/">Contato</a></li>
+                <li> <a href="./index.html">Pacotes</a></li>
+                <li> <a href="#atracoes">Atrações</a></li>
+                <li> <a href="#contato">Contato</a></li>
             </ul>
-        </div>
+        </nav>
 
     </header>
     <h2 class="subtitulo">Venha conhecer nosso maravilhoso arquipélago, com praias incriveis, e vistas de tirar o
         folego.</h2>
     <h2 class="subtitulo">6 maravilhosas atrações</h2>
     <main class="conteudo-bg">
-        <div class="conteudo">
+        <section class="conteudo" id="atracoes">
             <div class="conteudo-item">
                 <h2>Mini Ilha</h2>
                 <p>Trilhas para quem curte muito a natureza</p>
-                <img src="/imagem1.jfif" alt="" onclick="zoomImg(this)">
+                <img src="./imagem1.jfif" alt="" onclick="zoomImg(this)">
                 <a class="botao botao-ct" href="">Saiba Mais</a>
             </div>
             <div class="conteudo-item">
                 <h2>Praia Incrivel</h2>
                 <p>Aguas cristalinas</p>
-                <img src="/imagem2.jfif" alt="" onclick="zoomImg(this)">
+                <img src="./imagem2.jfif" alt="" onclick="zoomImg(this)">
                 <a class="botao botao-ct" href="">Saiba Mais</a>
             </div>
             <div class="conteudo-item">
                 <h2>Aguas transparentes</h2>
                 <p>Praias de areias branquinhas</p>
-                <img src="/imagem3.jfif" alt="" onclick="zoomImg(this)">
+                <img src="./imagem3.jfif" alt="" onclick="zoomImg(this)">
                 <a class="botao botao-ct" href="">Saiba Mais</a>
             </div>
             <div class="conteudo-item">
                 <h2>Conjunto de Montanhas</h2>
                 <p>Vistas incriveis</p>
-                <img src="/imagem4.jfif" alt="" onclick="zoomImg(this)">
+                <img src="./imagem4.jfif" alt="" onclick="zoomImg(this)">
                 <a class="botao botao-ct" href="">Saiba Mais</a>
             </div>
             <div class="conteudo-item">
                 <h2>Conexão da praia com o Deserto</h2>
                 <p>Maravilhosa vista</p>
-                <img src="/imagem5.jfif" alt="" onclick="zoomImg(this)">
+                <img src="./imagem5.jfif" alt="" onclick="zoomImg(this)">
                 <a class="botao botao-ct" href="">Saiba Mais</a>
             </div>
             <div class="conteudo-item">
                 <h2>Vulcão</h2>
                 <p>Para quem curte adrenalina</p>
-                <img src="/imagem6.jfif" alt="" onclick="zoomImg(this)">
+                <img src="./imagem6.jfif" alt="" onclick="zoomImg(this)">
                 <a class="botao botao-ct" href="">Saiba Mais</a>
             </div>
 
-        </div>
+        </section>
         <h2 class="subtitulo subtitulo-2 ">GALERIA</h2>
-        <div id="galeria">
-            <img class="galeria-item" src="/galeria1.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria2.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria4.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria3.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria5.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria6.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria7.jfif" alt="" onclick="zoomImg(this)">
-            <img class="galeria-item" src="/galeria8.jfif" alt="" onclick="zoomImg(this)">
+        <section id="galeria">
+            <img class="galeria-item" src="./galeria1.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria2.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria4.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria3.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria5.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria6.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria7.jfif" alt="" onclick="zoomImg(this)">
+            <img class="galeria-item" src="./galeria8.jfif" alt="" onclick="zoomImg(this)">
 
-        </div>
-        <div class="contato container">
+        </section>
+            <div class="contato container">
             <section class="contato-dados" aria-label="Endereço">
                 <h2 class="font-1-m cor-c0">Nossa loja</h2>
                 <div class="contato-endereco font-2-s cor-c4">
@@ -91,7 +91,7 @@
                 </address>
 
             </section>
-            <section class="contato-formulario" aria-label="Formulario">
+            <section class="contato-formulario" aria-label="Formulario" id="contato">
                 <form class="form" action="./contato.html">
                     <div class="form-item">
                         <label for="nome">Nome</label>
